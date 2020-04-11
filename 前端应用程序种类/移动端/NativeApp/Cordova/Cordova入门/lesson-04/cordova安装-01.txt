@@ -1,0 +1,1 @@
+﻿全局安装: cnpm install -g cordova@6.0.0

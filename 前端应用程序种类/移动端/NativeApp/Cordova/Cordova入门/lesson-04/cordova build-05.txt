@@ -1,0 +1,47 @@
+﻿在当前目录下打开终端输入:cordova build android
+
+此时会告诉你去下载gradle自动化构建工具包。
+
+假设让你下载gradle-2.2.1-all.zip那么你就去下载gradle-2.2.1-all.zip版本的自动化构建工具包。
+
+下载好之后看看C:\Users\Administrator路径中有没有“.gradle”文件夹，
+
+如果有，那么进入到下述目录中:
+
+
+C:\Users\Administrator\.gradle\wrapper\dists\gradle-2.2.1-all\2m8005s69iu8v0oiejfej094b
+
+然后删除上述根目录中的所有东西，把下载gradle-2.2.1-all.zip放进去。
+
+自动化构建工具包下载地址：https://downloads.gradle-dn.com/distributions/gradle-2.2.1-all.zip
+
+完成上述步骤之后，这个时候你需要进入你的工程文件。然后找到进入platforms\android目录。
+
+通过编辑器打开“build.gradle”文件。修改如下：
+
+
+buildscript {
+    repositories {
+        //mavenCentral()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    }
+
+   
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+    }
+   }
+
+
+allprojects {
+    repositories {
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    }
+}
+
+
+其目的是使用阿里国内的镜像下载。
+
+最后再终端输入cordova build android 打包完毕。
+
+头一次打包会下载很多工程文件，第二次就不会了，但是要是把工程文件删了，下次还会很慢。

@@ -1,0 +1,6 @@
+﻿安装Android SDK之后我们需要从Android SDK Manager中下载Android SDK开发工具和Android 系统API，
+
+以及Android SDK 扩展应用的API。至于要下载哪些请看该目录下的“pic-01.png”和“pic-02.png”。
+
+从Android SDK Manager所下载的都会到你安装Android SDK目录下所对应的文件夹中的。
+

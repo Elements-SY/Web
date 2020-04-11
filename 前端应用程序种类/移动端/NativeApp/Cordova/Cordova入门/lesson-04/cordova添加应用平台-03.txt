@@ -1,0 +1,17 @@
+﻿在当前目录下打开终端输入cordova platform add android --save 添加安卓平台至本地
+
+
+(这时项目包中hooks、platforms、plugins这几个文件夹就不会再是空目录了。)
+
+
+android-sdk 是sdk的一种移动端CS架构的开发包工具。如果说jdk是生产环境，那么sdk就是生产工具。
+
+配置android-sdk的系统变量，也就是android-sdk的程序所在的路径。
+
+例如：C:\Program Files (x86)\android\android-sdk
+
+打开Android sdk，启动SDK Manager，
+
+安装Android SDK Tools、Android SDK Platform-tools、Android SDK Build-tools、
+
+SDK Platform API 23以上即可。

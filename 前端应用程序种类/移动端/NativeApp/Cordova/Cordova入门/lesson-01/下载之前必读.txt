@@ -1,0 +1,13 @@
+﻿对于“Java JDK安装”文件夹和“Java JRE安装”文件夹我采用的是新版本的仅是一个演示。
+
+本教程是采用以下版本，其他版本可能会出现错误，为此请以下述版本为例：
+
+JavaSE8.0包含了jdk和jre
+
+请至链接: https://pan.baidu.com/s/1pylVXVhAhfcuVi6OyKKj3g 
+
+提取码: sc2z 复制这段内容后打开百度网盘手机App，操作更方便哦。
+
+或者去官方下载，为了保证有效，最好以上述链接为基础。
+
+下载地址：https://www.oracle.com/java/technologies/javase-downloads.html

@@ -1,0 +1,7 @@
+﻿进入工程文件夹下在当前目录下打开终端输入:
+
+cordova requirements通过这个命令可以检测缺少哪些东西，
+
+如该目录下的“cordova requirements.png”所示。而cordova
+
+需要依赖Java环境，所以要使用cordova打包app必须要安装jdk。

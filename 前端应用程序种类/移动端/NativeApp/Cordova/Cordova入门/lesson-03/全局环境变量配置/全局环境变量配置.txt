@@ -1,0 +1,23 @@
+﻿
+
+JAVA_HOME = D:\SoftWare\Java\jdk
+
+上述的JAVA_HOME这个系统变量名就代表D:\SoftWare\Java\jdk这个路径；
+
+%JAVA_HOME%\bin就等于D:\SoftWare\Java\jdk\bin
+
+
+
+
+
+ANDROID_HOME = D:\SoftWare\Android\Android SDK
+
+JAVA_HOME = D:\SoftWare\Java\jdk
+
+Path = D:\SoftWare\Java\jdk\bin;
+
+%ANDROID_HOME%\build-tools\23.0.3;
+
+%ANDROID_HOME%\platform-tools;
+
+%ANDROID_HOME%\tools
