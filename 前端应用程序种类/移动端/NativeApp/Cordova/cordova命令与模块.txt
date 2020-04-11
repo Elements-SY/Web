@@ -1,0 +1,9 @@
+﻿cordova info: 查看已经安装的插件列表以及环境版本情况
+
+cordova-common: 该模块包含了cordova-lib(cordova核心库)和Cordova平台使用的共享功能。
+
+cordova-fetch: 该模块包含了可用于使用npm安装和卸载Node.js软件包
+
+cordova-create: 该模块用于创建cordova风格的项目。它还包括对cordova模板的支持。它可以从npm和git中获取模板。
+
+cordova-serve: 该模块可用于在浏览器中提供Cordova应用程序。它没有命令行，而是旨在使用以下API进行调用。
